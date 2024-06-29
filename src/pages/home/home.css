@@ -1,0 +1,62 @@
+.courseslideTab {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 24px 80px 24px 80px;
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+  transition: 1s all ease;
+}
+
+.progressContain {
+  width: 90%;
+  display: flex;
+  gap: 0px;
+  justify-content: space-between;
+  opacity: 0px;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.headProgress {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headProgress h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  color: #4d4d4d;
+}
+
+.headProgress h3 {
+  width: 38px;
+  padding: 10px;
+  border-radius: 100px;
+  background-color: #dbedff;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.headProgress p {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  color: #4d4d4d;
+}
+
+.recommendedCourses {
+  display: flex;
+  width: 100%;
+  gap: 42px;
+  padding: 24px 80px 24px 80px;
+}

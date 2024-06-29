@@ -1,0 +1,7 @@
+.navigate {
+  width: 220px;
+  display: flex;
+  gap: 16px;
+  margin: auto;
+  padding-top: 16px;
+}

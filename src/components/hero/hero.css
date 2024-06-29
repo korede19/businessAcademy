@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+.heroContainer {
+  padding: 24px 80px 24px 80px;
+  height: 397.26px;
+  background: #0e0e0e80;
+  box-sizing: border-box;
+  background-image: url("../../assets/heroBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-blend-mode: multiply;
+}
+
+.firstText {
+  width: 38px;
+}
+
+.firstText p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.herotexts {
+  width: 551.78px;
+  height: 182px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  padding-top: 100px;
+}
+
+.herotexts h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.herotexts p {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.enrollButton {
+  width: 203px;
+  border-radius: 8px;
+}
+
+.enrollButton button {
+  width: 203px;
+  padding: 16px 10px 16px 10px;
+  background-color: #066fe0;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 8px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+  text-align: center;
+  cursor: pointer;
+}

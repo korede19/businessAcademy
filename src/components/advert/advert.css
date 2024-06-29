@@ -1,0 +1,51 @@
+.advertContainer {
+  width: 100%;
+  padding: 10px 80px 10px 80px;
+  display: flex;
+  align-content: center;
+  background-color: #0663c7;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.advertText p {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #f5f7fa;
+}
+
+.advertText span {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  color: #f5f7fa;
+}
+
+.advertButton {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.gotoCourse {
+  width: 139px;
+  padding: 10px 16px 10px 16px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.gotoCourse p {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #4d4d4d;
+}

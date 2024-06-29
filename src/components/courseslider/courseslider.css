@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+.courseContain {
+  width: 31%;
+  display: flex;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px 0px #abbed166;
+  gap: 16px;
+  transition: 1s all ease;
+  scroll-behavior: smooth;
+}
+
+.cardsTexts {
+  width: 70%;
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+}
+
+.cardsTexts h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  color: #066fe0;
+}
+
+.cardsTexts p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #4d4d4d;
+}
+
+.progressBar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.progressBar img {
+  width: 247.45px;
+  height: 6.2px;
+}
+
+.progressBar p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #4d4d4d;
+}
+
+.duration {
+  display: flex;
+  gap: 7px;
+  width: 170px;
+  align-items: center;
+}
