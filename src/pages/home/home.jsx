@@ -5,12 +5,14 @@ import Advert from "../../components/advert/advert";
 import HeroSection from "../../components/hero/hero";
 import Arrow from "../../svg/arrow";
 import Navigate from "../../components/navigate/navigate";
-import { CourseData, CoursesInfo } from "../../utils/courseData";
+import { CourseData, CoursesInfo, MarketingInfo } from "../../utils/courseData";
 import CourseSlide from "../../components/courseslider/courseslider";
 import Openarrow from "../../svg/openarrow";
 import Dotnav from "../../svg/dotnav";
 import Closearrow from "../../svg/closearrow";
 import RecommendedCourses from "../../components/courses/recommendedCourses";
+import NextLink from "../../svg/nextlink";
+import Marketing from "../../components/maerketing/market";
 
 const Home = () => {
   const [start, setStart] = useState(0);
@@ -88,6 +90,58 @@ const Home = () => {
             />
           );
         })}
+      </div>
+      <div className="navigate">
+        <div className="navigate">
+          <Openarrow />
+          <Dotnav />
+          <Closearrow />
+        </div>
+      </div>
+      <div className="marketContain">
+        {MarketingInfo?.map((item, index) => {
+          return (
+            <Marketing
+              image={item.image}
+              pretitle={item.pretitle}
+              Title={item.title}
+              text={item.text}
+              key={index}
+            />
+          );
+        })}
+      </div>
+      <div className="progressContain">
+        <div className="headProgress">
+          <h1>Popular Courses</h1>
+        </div>
+        <div className="headProgress">
+          <p>See all</p>
+          <Arrow />
+        </div>
+      </div>
+      <div className="recommendedCourses">
+        {CoursesInfo?.map((item, index) => {
+          return (
+            <RecommendedCourses
+              image={item.image}
+              title={item.title}
+              review={item.review}
+              text={item.text}
+              course={item.course}
+              duration={item.duration}
+              price={item.price}
+              key={index}
+            />
+          );
+        })}
+      </div>
+      <div className="navigate">
+        <div className="navigate">
+          <Openarrow />
+          <Dotnav />
+          <Closearrow />
+        </div>
       </div>
     </>
   );

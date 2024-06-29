@@ -60,3 +60,10 @@
   gap: 42px;
   padding: 24px 80px 24px 80px;
 }
+
+.marketContain {
+  padding: 24px 80px 24px 80px;
+  display: flex;
+  gap: 38px;
+  padding-top: 60px;
+}
