@@ -13,6 +13,8 @@ import Closearrow from "../../svg/closearrow";
 import RecommendedCourses from "../../components/courses/recommendedCourses";
 import NextLink from "../../svg/nextlink";
 import Marketing from "../../components/maerketing/market";
+import Explorecourses from "../../components/explore/explore";
+import Footer from "../../components/footer/footer";
 
 const Home = () => {
   const [start, setStart] = useState(0);
@@ -143,6 +145,70 @@ const Home = () => {
           <Closearrow />
         </div>
       </div>
+      <div className="explorecontainer">
+        <Explorecourses />
+      </div>
+      <div className="progressContain">
+        <div className="headProgress">
+          <h1>New Courses</h1>
+        </div>
+        <div className="headProgress">
+          <p>See all</p>
+          <Arrow />
+        </div>
+      </div>
+      <div className="recommendedCourses">
+        {CoursesInfo?.map((item, index) => {
+          return (
+            <RecommendedCourses
+              image={item.image}
+              title={item.title}
+              review={item.review}
+              text={item.text}
+              course={item.course}
+              duration={item.duration}
+              price={item.price}
+              key={index}
+            />
+          );
+        })}
+      </div>
+      <div className="navigate">
+        <Openarrow />
+        <Dotnav />
+        <Closearrow />
+      </div>
+      <div className="progressContain">
+        <div className="headProgress">
+          <h1>Avuna Starter Lesson For Businesses</h1>
+        </div>
+        <div className="headProgress">
+          <p>See all</p>
+          <Arrow />
+        </div>
+      </div>
+      <div className="recommendedCourses">
+        {CoursesInfo?.map((item, index) => {
+          return (
+            <RecommendedCourses
+              image={item.image}
+              title={item.title}
+              review={item.review}
+              text={item.text}
+              course={item.course}
+              duration={item.duration}
+              price={item.price}
+              key={index}
+            />
+          );
+        })}
+      </div>
+      <div className="navigate">
+        <Openarrow />
+        <Dotnav />
+        <Closearrow />
+      </div>
+      <Footer />
     </>
   );
 };

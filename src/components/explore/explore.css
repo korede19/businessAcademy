@@ -1,0 +1,57 @@
+.exploreContain {
+  width: 100%;
+  background-color: #0671e0;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.exploreText {
+  padding: 35px;
+  width: 30%;
+}
+
+.exploreText h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 38px;
+}
+
+.col1btn {
+  display: flex;
+  gap: 32px;
+}
+
+.exploreText p {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: justify;
+  color: #ffffff;
+}
+
+.explorebtn {
+  padding: 16px 24px 16px 24px;
+  gap: 10px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 0px;
+  box-shadow: 0px 6px 12px 0px #3434344d;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
+}

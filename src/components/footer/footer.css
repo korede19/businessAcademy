@@ -1,0 +1,98 @@
+.line {
+  width: 100%;
+  background-color: #4196f0;
+  height: 36.69px;
+  margin-top: 117px;
+}
+
+.footerContainer {
+  width: 100%;
+  background-color: #066fe0;
+}
+
+.footerContain {
+  padding: 54px 80px 54px 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footercol1 {
+  width: 30%;
+}
+
+.footercol2 {
+  display: flex;
+  gap: 48px;
+}
+
+.footercol1 p {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 16px;
+}
+
+.footercol1 img {
+  width: 205.64px;
+  height: 36.54px;
+}
+
+.socials {
+  display: flex;
+  gap: 20px;
+  padding-top: 31px;
+}
+
+.footerCompany h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  color: #ffffff;
+  padding-bottom: 25px;
+}
+
+.footerCompany p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #cdcdcd;
+  padding-bottom: 16px;
+  cursor: pointer;
+}
+
+.copyright {
+  width: 100%;
+  padding: 24px 80px 24px 80px;
+  gap: 24.35px;
+  display: flex;
+  background-color: #171717;
+  justify-content: space-between;
+}
+
+.copyright h4 {
+  font-family: "lato", sans-serif;
+  font-size: 20.99px;
+  font-weight: 600;
+  line-height: 20.99px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.copyright p {
+  font-family: "Lato", sans-serif;
+  font-size: 20.99px;
+  font-weight: 600;
+  line-height: 25.19px;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: underline;
+  cursor: pointer;
+}
