@@ -17,8 +17,8 @@ const Header = () => {
         </div>
         <div className="otherMenus">
           <div className="menuLinks">
-            {menuLinks?.map((item) => {
-              return <p>{item}</p>;
+            {menuLinks?.map((item, index) => {
+              return <p key={index}>{item}</p>;
             })}
           </div>
           <div className="headForm">
