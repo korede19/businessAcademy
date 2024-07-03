@@ -1,0 +1,211 @@
+.DetailsListContain {
+  display: flex;
+  gap: 22px;
+  padding: 30px 80px;
+  width: 100%;
+}
+
+.DetailsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 70%;
+}
+
+.videoBox img {
+  width: 100%;
+}
+
+.detalsContain {
+  display: flex;
+  justify-content: space-between;
+}
+.detailsHead {
+  display: flex;
+  width: 448px;
+  gap: 10px;
+}
+.detailsHead h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  color: #0671e0;
+}
+.detailsBtn {
+  width: 65px;
+  height: 28px;
+  padding: 0px 16px;
+  border-radius: 5px;
+  background-color: #f1fbf8;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  border: 0px;
+  color: #32c997;
+}
+
+.detailsBtn2 {
+  margin-top: 10px;
+  width: 96px;
+  box-sizing: border-box;
+  padding: 0px 16px 4px 16px;
+  border-radius: 100px;
+  background-color: #dbedff;
+  font-family: "Lato", sans-serifx;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #0663c7;
+  border: 0px;
+}
+
+.detailsRating {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-top: 10px;
+}
+
+.detailsRating h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+}
+
+.detailsBtntwoContain {
+  display: flex;
+  gap: 16px;
+  height: 50px;
+  align-items: center;
+  box-sizing: border-box;
+}
+.detailsBtntwo {
+  display: flex;
+  height: 49px;
+  gap: 5px;
+  background-color: #dbedff;
+  padding: 11px 16px;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.detailsBtntwo p {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #066fe0;
+}
+
+.detailsPricing {
+  width: 433px;
+  height: 691px;
+  top: 168px;
+  left: 998px;
+  padding: 32px 44px 32px 24px;
+  border-radius: 8px;
+  background-color: #066fe0;
+}
+
+.detailsPricing h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 48.9px;
+  font-weight: 700;
+  line-height: 59.77px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.pricingBody {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 8px 0px 19px 0px;
+}
+
+.pricingBody {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #ffffff;
+}
+.Btnprice {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #ffffff;
+  background-color: #ffffff;
+  color: #0663c7;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.priceBtnContain {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.priceBtnOne {
+  padding: 16px 24px 16px 24px;
+  border-radius: 8px;
+  border: 0px;
+  background-color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #066fe0;
+  cursor: pointer;
+}
+
+.priceBtnTwo {
+  padding: 16px 24px 16px 24px;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.courseListsBody {
+  padding-top: 54px;
+}
+
+.courseListsBody h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.listIconText {
+  display: flex;
+  padding-top: 16px;
+  align-items: center;
+  gap: 10px;
+}
+
+.listIconText p {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  color: #ffffff;
+}
