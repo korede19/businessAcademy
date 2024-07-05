@@ -5,6 +5,7 @@ import CourseImg from "../assets/courses0ne.jpg";
 import Fullstars from "../assets/Rating.png";
 import Market from "../assets/marketone.png";
 import MarketTwo from "../assets/market2.png";
+import ReviewImg from "../assets/reviewimg.png";
 
 export const CourseData = [
   {
@@ -96,5 +97,32 @@ export const MarketingInfo = [
     pretitle: "Marketing",
     coursetitle: "Recommended Courses",
     text: "Lorem ipsum dolor sit amet consectetur. Turpis lorem pellentesque congue vulputate in ultricies semper orci. Sit in molestie elementum fermentum elit.",
+  },
+];
+
+export const ReviewInfo = [
+  {
+    image: ReviewImg,
+    title: "John Doe",
+    rating: Fullstars,
+    text: "Lorem ipsum dolor sit amet consectetur. Feugia t blandit turpis ma ",
+  },
+  {
+    image: ReviewImg,
+    title: "John Doe",
+    rating: Fullstars,
+    text: "Lorem ipsum dolor sit amet consectetur. Feugia t blandit turpis ma ",
+  },
+  {
+    image: ReviewImg,
+    title: "John Doe",
+    rating: Fullstars,
+    text: "Lorem ipsum dolor sit amet consectetur. Feugia t blandit turpis ma ",
+  },
+  {
+    image: ReviewImg,
+    title: "John Doe",
+    rating: Fullstars,
+    text: "Lorem ipsum dolor sit amet consectetur. Feugia t blandit turpis ma ",
   },
 ];

@@ -1,0 +1,134 @@
+.aboutCourseContain {
+  display: flex;
+  margin: 50px 80px;
+  gap: 22px;
+}
+
+.aboutCourseTab {
+  width: 70%;
+  gap: 10px;
+  border-radius: 8px;
+  background-color: #eef5fc;
+  padding: 32px;
+}
+
+.tabhead {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  height: 80px;
+  padding: 10px;
+}
+
+.tabhead p:first-child {
+  padding: 16px;
+  border-bottom: 3px solid #0663c7;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  color: #0663c7;
+}
+
+.tabhead p {
+  padding: 16px;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  color: #89939e;
+}
+
+.tabBody {
+  padding: 32px 0px;
+  width: 90%;
+}
+
+.tabBody h1 {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  color: #0663c7;
+  padding-bottom: 16px;
+}
+.tabTexts2 {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: justify;
+  color: #4d4d4d;
+}
+
+.tabTests {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #4d4d4d;
+  padding-bottom: 10px;
+}
+
+.tabBody h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  padding-bottom: 10px;
+  color: #4d4d4d;
+}
+
+.checkmark {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.col2TabCourse {
+  width: 434px;
+  height: 525px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px 0px #abbed166;
+  padding: 32px 17px;
+}
+
+.col2TabCourse h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  color: #4d4d4d;
+  padding-bottom: 28px;
+}
+.tabsbtn {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.btnTabOne {
+  display: flex;
+  gap: 40px;
+}
+
+.TabsButtons {
+  padding: 12px 24px 12px 24px;
+  gap: 10px;
+  border-radius: 80px;
+  border: 1px solid #0663c7;
+  opacity: 0px;
+  background-color: transparent;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #0663c7;
+  box-shadow: 0px 8px 16px 0px #abbed166;
+  cursor: pointer;
+}

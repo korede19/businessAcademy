@@ -1,0 +1,57 @@
+.reviewContain {
+  padding: 16px;
+  gap: 10px;
+  border-radius: 8px;
+  background-color: transparent;
+  box-shadow: 0px 8px 16px 0px #abbed166;
+}
+
+.reviewProfile {
+  display: flex;
+  gap: 4px;
+}
+
+.reviewrate {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.profileImg {
+  width: 44.68px;
+  height: 44.68px;
+}
+.starImg {
+  width: 90.67px;
+  height: 16px;
+}
+
+.reviewrate h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  color: #0663c7;
+}
+
+.textbbdy {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: justify;
+  color: #4d4d4d;
+  padding-top: 8px;
+}
+
+.readMore {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: justify;
+  color: #0663c7;
+  border-bottom: 1px solid #0663c7;
+  cursor: pointer;
+}
