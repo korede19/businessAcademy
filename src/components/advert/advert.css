@@ -49,3 +49,21 @@
   text-align: left;
   color: #4d4d4d;
 }
+
+@media screen and (max-width: 500px) {
+  .advertContainer {
+    padding: 10px 16px;
+  }
+
+  .advertButton {
+    display: none;
+  }
+
+  .advertText p {
+    font-size: 15px;
+  }
+
+  .advertText span {
+    font-size: 15px;
+  }
+}

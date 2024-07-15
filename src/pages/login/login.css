@@ -178,3 +178,17 @@ label {
   display: flex;
   gap: 16px;
 }
+
+@media screen and (max-width: 500px) {
+  .firstRow {
+    width: 100%;
+  }
+  .signInText {
+    padding: 24px 16px;
+  }
+
+  .formContainer {
+    padding: 32px 16px;
+    margin-bottom: 32px;
+  }
+}

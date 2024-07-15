@@ -88,7 +88,7 @@ const Signup = () => {
                 </div>
                 <div className="signText">
                   <p>
-                    Already have an account? ?{" "}
+                    Already have an account?
                     <Link to="/login">
                       <span> Sign In</span>
                     </Link>

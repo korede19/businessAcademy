@@ -111,3 +111,53 @@
   gap: 32px;
   width: 100%;
 }
+
+@media screen and (max-width: 500px) {
+  .pageContain {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .column1 {
+    width: 100%;
+  }
+
+  .logoImage {
+    width: 178.94px;
+    height: 31.8px;
+    padding: 25px 32px !important;
+  }
+
+  .logoImage img {
+    width: 170px;
+  }
+
+  .column2 {
+    padding: 0px 16px;
+    margin-bottom: 30px;
+  }
+
+  .columnform {
+    width: 100%;
+  }
+
+  .textContain {
+    padding-top: 24px;
+  }
+  .firstForm {
+    gap: 8px;
+  }
+
+  .signupInput input {
+    font-size: 14px;
+  }
+  .allForms {
+    gap: 16px;
+  }
+  .SignupContainer label {
+    font-size: 12px;
+  }
+  .signupButton {
+    padding-top: 23px !important;
+  }
+}
