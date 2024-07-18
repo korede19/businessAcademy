@@ -90,3 +90,96 @@
   text-align: left;
   color: #4d4d4d;
 }
+
+.mobilehid {
+  display: none;
+}
+
+.mobileBtn {
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  .headerContainer {
+    padding: 0px;
+    width: 100%;
+    flex-direction: column;
+  }
+  .otherMenus {
+    display: block;
+    width: 100%;
+  }
+  .headerContain {
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+  }
+
+  .headForm {
+    display: none;
+  }
+
+  .headIcons {
+    display: none;
+  }
+
+  .menuLinks {
+    flex-direction: column;
+    align-items: unset;
+    background-color: #eef5fc;
+    padding: 0px 16px;
+    gap: 0px;
+  }
+
+  .menuLinks p:first-child {
+    border-top: 1px solid #4196f0;
+  }
+
+  .menuLinks p {
+    border-bottom: 1px solid #4196f0;
+    padding: 16px;
+  }
+
+  .logo {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 40px 16px;
+  }
+
+  .headerContain .menuLinks {
+    position: absolute;
+    top: -500px;
+    width: 100px;
+    background-color: #eef5fc;
+    transition: 1s all ease;
+  }
+
+  .mobileBtn {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .headMobile .menuLinks {
+    top: 80px;
+    width: 100%;
+    height: 100vh;
+    transition: 1s all ease;
+  }
+
+  .userIcon {
+    padding: 0px;
+    justify-content: space-around;
+  }
+  .userIcon p {
+    border: 0px;
+  }
+  .mobilehid {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #0671e0;
+    padding-bottom: 16px;
+  }
+}

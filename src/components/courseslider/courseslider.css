@@ -62,3 +62,23 @@
   width: 170px;
   align-items: center;
 }
+
+@media screen and (max-width: 500px) {
+  .courseContain {
+    width: 100%;
+    align-items: center;
+  }
+
+  .cardsTexts h1 {
+    font-size: 16px !important;
+  }
+
+  .cardsTexts {
+    gap: 0px;
+  }
+
+  .navigate {
+    width: 100%;
+    justify-content: center;
+  }
+}

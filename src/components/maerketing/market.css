@@ -63,3 +63,15 @@
   text-decoration: underline;
   padding: 0px;
 }
+
+@media screen and (max-width: 500px) {
+  .marketContainer {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .marketTexts {
+    padding: 24px 16px;
+    width: 100%;
+  }
+}

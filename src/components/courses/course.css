@@ -125,6 +125,7 @@
   display: flex;
   gap: 10px;
   padding-bottom: 16px;
+  align-items: center;
 }
 
 .modules p {
@@ -139,6 +140,7 @@
 .buttonContain {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .buttonContain h2 {
@@ -161,4 +163,10 @@
   font-weight: 400;
   text-align: center;
   cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .cardContain {
+    width: 100%;
+  }
 }

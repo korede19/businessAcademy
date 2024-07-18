@@ -1,5 +1,4 @@
 .courseslideTab {
-  width: 100%;
   background-color: #ffffff;
   padding: 24px 80px 24px 80px;
   display: flex;
@@ -70,4 +69,42 @@
 
 .explorecontainer {
   padding: 24px 80px 24px 80px;
+}
+
+@media screen and (max-width: 500px) {
+  .courseslideTab {
+    flex-direction: column;
+    padding: 0px;
+    margin: 16px;
+  }
+
+  .courseContain {
+    width: 100% !important;
+    padding: 40px;
+  }
+
+  .headProgress h1 {
+    font-size: 20px !important;
+  }
+
+  .headProgress h3 {
+    display: none;
+  }
+
+  .recommendedCourses {
+    width: 100%;
+    padding: 24px 30px;
+    flex-direction: column;
+  }
+
+  .marketContain {
+    padding: 60px 16px;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .explorecontainer {
+    padding: 0px;
+    margin: 80px 16px;
+  }
 }

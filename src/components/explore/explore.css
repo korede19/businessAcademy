@@ -55,3 +55,30 @@
   line-height: 24px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 500px) {
+  .exploreContain {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .exploreText {
+    width: 100%;
+  }
+
+  .buttonContainer {
+    padding: 0px;
+    gap: 0px;
+  }
+
+  .col1btn {
+    display: block;
+    margin: 0px 33.5px;
+    margin-bottom: 43px;
+  }
+
+  .explorebtn {
+    margin: 10px;
+  }
+}
